@@ -1,5 +1,5 @@
 #!/bin/bash
-# Instalar Postgres local y soporte para python
+# Instalar Postgres local, soporte para python y sqalchemy
 apt-get -qq update -y
 apt-get -qq install -y postgresql postgresql-contrib
 pip install -q psycopg2-binary
