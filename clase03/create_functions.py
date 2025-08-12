@@ -29,3 +29,5 @@ def execute_query(query):
   finally:
       if conn is not None:
           conn.close()
+
+print("Funciones creadas.")
